@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h2>ARIS-LeanIX Middleware Administration Prototype (MAP)</h2>
+    <p>Welcome to <%= title %></p>
+    <form method="post" action="/">
+        <fieldset>
+            <legend>Generate ARIS .csv file</legend>
+            <input type="submit" name="genARIScsv" value="Generate"/>
+        </fieldset>
+    </form>
+    <form method="post" action="/">
+        <fieldset>
+            <legend>Generate LeanIX .csv file</legend>
+            <input type="submit" name="genLeanIXcsv" value="Generate"/>
+        </fieldset>
+    </form>
+    <form method="post" action="/">
+        <fieldset>
+            <legend>Load ARIS .csv file into LeanIX</legend>
+            <input type="submit" name="loadARIScsv" value="Load"/>
+        </fieldset>
+    </form>
+    <form method="post" action="/">
+        <fieldset>
+            <legend>Load LeanIX .csv file into ARIS</legend>
+            <input type="submit" name="loadLeanIXcsv" value="Load"/>
+        </fieldset>
+    </form>
+  </body>
+</html>
