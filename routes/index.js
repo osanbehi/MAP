@@ -1,8 +1,8 @@
 var express = require('express');
+var exec1 = require('../sql/exec sp_generateARIScsv');
 var router = express.Router();
 
 //var app = express();
-
 
 var execGenARIS = function() {
     console.log('I come from the frontend ARIS Gen')
@@ -36,7 +36,9 @@ router.post('/', function(req, res) {
     res.sendStatus(200);
 
     if (button1 == "Generate"){
-        execGenARIS();
+        //execGenARIS();
+        exec1.generate();
+        //res.render('index');
     }
     if (button2 == "Generate"){
         execGenLeanIX();

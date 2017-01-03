@@ -4,9 +4,9 @@ CREATE PROCEDURE sp_createARISTables()
 
 BEGIN
 
-DROP TABLE arisdb.Object_Occurrence;
-DROP TABLE arisdb.Object_Definition;
-DROP TABLE arisdb.Model;
+DROP TABLE IF EXISTS arisdb.Object_Occurrence;
+DROP TABLE IF EXISTS arisdb.Object_Definition;
+DROP TABLE IF EXISTS arisdb.Model;
 
 CREATE TABLE arisdb.Object_Definition (
     d_guid VARCHAR(50) NOT NULL,

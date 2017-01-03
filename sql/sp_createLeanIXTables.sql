@@ -4,9 +4,9 @@ CREATE PROCEDURE sp_createLeanIXTables()
 
 BEGIN
 
-DROP TABLE leanixdb.InformationSystem_Process;
-DROP TABLE leanixdb.Information_System;
-DROP TABLE leanixdb.Process;
+DROP TABLE IF EXISTS leanixdb.InformationSystem_Process;
+DROP TABLE IF EXISTS leanixdb.Information_System;
+DROP TABLE IF EXISTS leanixdb.Process;
 
 CREATE TABLE leanixdb.Information_System (
     is_id VARCHAR(50) NOT NULL,
