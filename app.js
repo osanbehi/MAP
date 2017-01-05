@@ -42,4 +42,17 @@ app.use(function(err, req, res, next) {
   res.render('error');
 });
 
+/*
+if(process.env.NODE_ENV !== 'production') {
+    process.once('uncaughtException', function(err) {
+        console.error('FATAL: Uncaught exception.');
+        console.error(err.stack||err);
+        setTimeout(function(){
+            process.exit(1);
+        }, 100);
+    });
+}
+*/
+
+
 module.exports = app;

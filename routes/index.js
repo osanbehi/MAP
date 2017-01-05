@@ -1,5 +1,6 @@
 var express = require('express');
 var exec1 = require('../sql/exec sp_generateARIScsv');
+var del1 = require('../sql/deleteARIScsvFile');
 var router = express.Router();
 
 //var app = express();
@@ -21,10 +22,9 @@ var execLoadLeanIX = function() {
 };
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
+router.get('/', function(req, res) {
   res.render('index', { title: 'ARIS-LeanIX MAP' });
 });
-
 
 router.post('/', function(req, res) {
     var button1 = req.body.genARIScsv;
@@ -36,9 +36,26 @@ router.post('/', function(req, res) {
     res.sendStatus(200);
 
     if (button1 == "Generate"){
-        //execGenARIS();
+
+        //del1.delete();
         exec1.generate();
+
+        /*
+        //execGenARIS();
+        console.log('I arrived at the button');
+        del1.delete() {
+            if (err) {
+                console.log('I arrived at the error');
+                return console.error(err);
+                //console.log(gen);
+            } else {
+                console.log('I arrived at the generate part');
+                exec1.generate();
+            }
         //res.render('index');
+        });
+        */
+
     }
     if (button2 == "Generate"){
         execGenLeanIX();
