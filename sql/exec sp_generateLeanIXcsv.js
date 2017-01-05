@@ -1,4 +1,4 @@
-function generateARIS(){
+function generateLeanIX(){
 
     var mysql = require('mysql');
     var fs = require('fs');
@@ -11,7 +11,7 @@ function generateARIS(){
 
     connection.connect();
 
-    connection.query('CALL sp_generateARIScsv();', function(err, rows) {
+    connection.query('CALL sp_generateLeanIXcsv();', function(err, rows) {
         if (err) throw err;
         console.log(rows);
     });
@@ -19,4 +19,4 @@ function generateARIS(){
     connection.end();
 }
 
-module.exports.generate = generateARIS;
+module.exports.generate = generateLeanIX;
