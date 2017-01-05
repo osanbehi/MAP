@@ -4,6 +4,7 @@ CREATE PROCEDURE sp_createMAPTables()
 
 BEGIN
 
+/****************** Delete unecessary tables ********************/
 DROP TABLE IF EXISTS mapdb.Output_ARIS;
 DROP TABLE IF EXISTS mapdb.Output_LeanIX;
 DROP TABLE IF EXISTS mapdb.Input_ARIS;
