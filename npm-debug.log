@@ -1,0 +1,591 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'cache',
+1 verbose cli   'clean' ]
+2 info using npm@3.10.9
+3 info using node@v6.9.2
+4 silly ls normalized .
+5 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\_locks is being purged
+6 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\_locks
+7 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\accepts is being purged
+8 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\accepts
+9 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\array-flatten is being purged
+10 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\array-flatten
+11 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\babyparse is being purged
+12 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\babyparse
+13 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\basic-auth is being purged
+14 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\basic-auth
+15 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\bignumber.js is being purged
+16 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\bignumber.js
+17 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\bluebird is being purged
+18 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\bluebird
+19 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\body-parser is being purged
+20 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\body-parser
+21 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\bson is being purged
+22 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\bson
+23 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\bson-objectid is being purged
+24 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\bson-objectid
+25 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\buffer-shims is being purged
+26 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\buffer-shims
+27 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\bytes is being purged
+28 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\bytes
+29 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\cli-table is being purged
+30 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\cli-table
+31 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\colors is being purged
+32 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\colors
+33 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\commander is being purged
+34 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\commander
+35 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\content-disposition is being purged
+36 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\content-disposition
+37 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\content-type is being purged
+38 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\content-type
+39 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\cookie is being purged
+40 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\cookie
+41 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\cookie-parser is being purged
+42 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\cookie-parser
+43 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\cookie-signature is being purged
+44 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\cookie-signature
+45 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\core-util-is is being purged
+46 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\core-util-is
+47 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\csv is being purged
+48 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\csv
+49 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\csv-generate is being purged
+50 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\csv-generate
+51 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\csv-mysql is being purged
+52 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\csv-mysql
+53 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\csv-parse is being purged
+54 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\csv-parse
+55 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\csv-stringify is being purged
+56 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\csv-stringify
+57 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\csv-to-mysql is being purged
+58 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\csv-to-mysql
+59 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\csv2sql-lite is being purged
+60 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\csv2sql-lite
+61 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\debug is being purged
+62 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\debug
+63 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\define-properties is being purged
+64 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\define-properties
+65 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\depd is being purged
+66 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\depd
+67 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\destroy is being purged
+68 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\destroy
+69 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\doc-path is being purged
+70 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\doc-path
+71 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\ee-first is being purged
+72 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\ee-first
+73 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\ejs is being purged
+74 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\ejs
+75 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\encodeurl is being purged
+76 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\encodeurl
+77 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\es-abstract is being purged
+78 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\es-abstract
+79 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\es-to-primitive is being purged
+80 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\es-to-primitive
+81 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\es6-promise is being purged
+82 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\es6-promise
+83 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\escape-html is being purged
+84 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\escape-html
+85 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\etag is being purged
+86 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\etag
+87 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\exec-sql is being purged
+88 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\exec-sql
+89 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\execsql is being purged
+90 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\execsql
+91 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\expect is being purged
+92 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\expect
+93 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\expect.js is being purged
+94 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\expect.js
+95 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\express is being purged
+96 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\express
+97 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\express-generator is being purged
+98 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\express-generator
+99 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\finalhandler is being purged
+100 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\finalhandler
+101 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\flat is being purged
+102 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\flat
+103 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\foreach is being purged
+104 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\foreach
+105 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\forwarded is being purged
+106 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\forwarded
+107 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\fresh is being purged
+108 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\fresh
+109 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\function-bind is being purged
+110 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\function-bind
+111 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\graceful-readlink is being purged
+112 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\graceful-readlink
+113 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\has is being purged
+114 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\has
+115 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\http-errors is being purged
+116 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\http-errors
+117 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\iconv-lite is being purged
+118 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\iconv-lite
+119 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\inherits is being purged
+120 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\inherits
+121 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\ipaddr.js is being purged
+122 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\ipaddr.js
+123 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\is-arrow-function is being purged
+124 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\is-arrow-function
+125 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\is-boolean-object is being purged
+126 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\is-boolean-object
+127 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\is-buffer is being purged
+128 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\is-buffer
+129 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\is-callable is being purged
+130 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\is-callable
+131 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\is-date-object is being purged
+132 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\is-date-object
+133 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\is-equal is being purged
+134 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\is-equal
+135 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\is-generator-function is being purged
+136 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\is-generator-function
+137 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\is-number-object is being purged
+138 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\is-number-object
+139 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\is-regex is being purged
+140 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\is-regex
+141 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\is-string is being purged
+142 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\is-string
+143 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\is-symbol is being purged
+144 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\is-symbol
+145 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\isarray is being purged
+146 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\isarray
+147 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\json-2-csv is being purged
+148 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\json-2-csv
+149 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\json2csv is being purged
+150 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\json2csv
+151 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\lodash is being purged
+152 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\lodash
+153 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\lodash.clonedeep is being purged
+154 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\lodash.clonedeep
+155 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\lodash.flatten is being purged
+156 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\lodash.flatten
+157 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\lodash.get is being purged
+158 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\lodash.get
+159 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\lodash.set is being purged
+160 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\lodash.set
+161 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\lodash.uniq is being purged
+162 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\lodash.uniq
+163 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\media-typer is being purged
+164 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\media-typer
+165 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\merge-descriptors is being purged
+166 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\merge-descriptors
+167 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\methods is being purged
+168 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\methods
+169 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\mime is being purged
+170 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\mime
+171 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\mime-db is being purged
+172 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\mime-db
+173 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\mime-types is being purged
+174 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\mime-types
+175 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\minimist is being purged
+176 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\minimist
+177 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\mkdirp is being purged
+178 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\mkdirp
+179 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\mongo-mock is being purged
+180 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\mongo-mock
+181 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\mongodb is being purged
+182 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\mongodb
+183 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\mongodb-core is being purged
+184 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\mongodb-core
+185 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\morgan is being purged
+186 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\morgan
+187 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\ms is being purged
+188 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\ms
+189 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\mysql is being purged
+190 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\mysql
+191 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\negotiator is being purged
+192 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\negotiator
+193 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\nimble is being purged
+194 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\nimble
+195 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\node-csv is being purged
+196 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\node-csv
+197 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\npm is being purged
+198 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\npm
+199 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\nwglobal is being purged
+200 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\nwglobal
+201 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\object-inspect is being purged
+202 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\object-inspect
+203 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\object-keys is being purged
+204 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\object-keys
+205 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\object.entries is being purged
+206 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\object.entries
+207 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\on-finished is being purged
+208 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\on-finished
+209 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\on-headers is being purged
+210 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\on-headers
+211 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\optimist is being purged
+212 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\optimist
+213 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\parseurl is being purged
+214 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\parseurl
+215 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\path is being purged
+216 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\path
+217 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\path-is-absolute is being purged
+218 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\path-is-absolute
+219 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\path-to-regexp is being purged
+220 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\path-to-regexp
+221 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\process is being purged
+222 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\process
+223 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\process-nextick-args is being purged
+224 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\process-nextick-args
+225 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\proxy-addr is being purged
+226 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\proxy-addr
+227 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\qs is being purged
+228 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\qs
+229 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\range-parser is being purged
+230 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\range-parser
+231 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\raw-body is being purged
+232 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\raw-body
+233 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\readable-stream is being purged
+234 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\readable-stream
+235 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\registry.npmjs.org is being purged
+236 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\registry.npmjs.org
+237 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\require-all is being purged
+238 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\require-all
+239 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\require_optional is being purged
+240 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\require_optional
+241 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\resolve-from is being purged
+242 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\resolve-from
+243 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\semver is being purged
+244 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\semver
+245 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\send is being purged
+246 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\send
+247 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\serve-favicon is being purged
+248 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\serve-favicon
+249 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\serve-static is being purged
+250 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\serve-static
+251 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\setprototypeof is being purged
+252 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\setprototypeof
+253 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\sift is being purged
+254 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\sift
+255 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\sorted-object is being purged
+256 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\sorted-object
+257 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\sqlstring is being purged
+258 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\sqlstring
+259 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\statuses is being purged
+260 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\statuses
+261 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\stream-transform is being purged
+262 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\stream-transform
+263 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\string_decoder is being purged
+264 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\string_decoder
+265 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\tmatch is being purged
+266 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\tmatch
+267 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\type-is is being purged
+268 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\type-is
+269 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\underscore is being purged
+270 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\underscore
+271 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\unpipe is being purged
+272 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\unpipe
+273 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\util is being purged
+274 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\util
+275 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\util-deprecate is being purged
+276 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\util-deprecate
+277 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\utils-merge is being purged
+278 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\utils-merge
+279 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\vary is being purged
+280 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\vary
+281 silly gentlyRm C:\Users\Oswaldo\AppData\Roaming\npm-cache\wordwrap is being purged
+282 verbose gentlyRm don't care about contents; nuking C:\Users\Oswaldo\AppData\Roaming\npm-cache\wordwrap
+283 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\_locks
+284 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\accepts
+285 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\bignumber.js
+286 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\array-flatten
+287 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\babyparse
+288 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\basic-auth
+289 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\bson-objectid
+290 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\bson
+291 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\bluebird
+292 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\buffer-shims
+293 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\bytes
+294 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\cli-table
+295 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\colors
+296 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\content-type
+297 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\body-parser
+298 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\content-disposition
+299 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\cookie
+300 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\cookie-signature
+301 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\commander
+302 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\core-util-is
+303 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\csv
+304 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\cookie-parser
+305 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\csv-mysql
+306 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\csv-parse
+307 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\csv2sql-lite
+308 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\csv-to-mysql
+309 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\csv-generate
+310 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\csv-stringify
+311 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\depd
+312 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\define-properties
+313 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\doc-path
+314 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\debug
+315 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\ee-first
+316 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\ejs
+317 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\encodeurl
+318 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\destroy
+319 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\es-abstract
+320 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\es6-promise
+321 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\exec-sql
+322 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\execsql
+323 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\escape-html
+324 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\etag
+325 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\expect
+326 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\es-to-primitive
+327 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\express-generator
+328 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\finalhandler
+329 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\express
+330 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\expect.js
+331 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\foreach
+332 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\flat
+333 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\forwarded
+334 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\function-bind
+335 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\graceful-readlink
+336 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\fresh
+337 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\inherits
+338 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\iconv-lite
+339 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\has
+340 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\http-errors
+341 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\is-buffer
+342 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\is-arrow-function
+343 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\ipaddr.js
+344 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\is-boolean-object
+345 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\is-date-object
+346 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\is-generator-function
+347 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\is-equal
+348 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\is-number-object
+349 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\is-regex
+350 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\is-callable
+351 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\is-string
+352 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\is-symbol
+353 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\isarray
+354 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\lodash
+355 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\lodash.clonedeep
+356 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\json2csv
+357 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\json-2-csv
+358 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\lodash.get
+359 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\lodash.flatten
+360 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\lodash.uniq
+361 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\merge-descriptors
+362 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\media-typer
+363 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\lodash.set
+364 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\mime-types
+365 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\mime-db
+366 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\minimist
+367 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\mime
+368 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\methods
+369 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\mongodb
+370 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\mkdirp
+371 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\mongo-mock
+372 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\mysql
+373 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\mongodb-core
+374 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\nimble
+375 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\ms
+376 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\morgan
+377 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\npm
+378 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\nwglobal
+379 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\negotiator
+380 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\node-csv
+381 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\object-keys
+382 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\object.entries
+383 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\object-inspect
+384 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\optimist
+385 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\on-finished
+386 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\parseurl
+387 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\on-headers
+388 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\path
+389 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\path-is-absolute
+390 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\path-to-regexp
+391 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\process
+392 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\proxy-addr
+393 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\process-nextick-args
+394 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\range-parser
+395 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\qs
+396 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\registry.npmjs.org
+397 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\require-all
+398 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\raw-body
+399 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\resolve-from
+400 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\semver
+401 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\send
+402 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\serve-static
+403 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\require_optional
+404 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\serve-favicon
+405 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\readable-stream
+406 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\sift
+407 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\sqlstring
+408 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\setprototypeof
+409 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\sorted-object
+410 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\string_decoder
+411 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\type-is
+412 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\statuses
+413 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\underscore
+414 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\tmatch
+415 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\util-deprecate
+416 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\utils-merge
+417 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\unpipe
+418 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\wordwrap
+419 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\util
+420 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\vary
+421 silly vacuum-fs purging C:\Users\Oswaldo\AppData\Roaming\npm-cache\stream-transform
+422 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+423 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+424 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+425 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+426 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+427 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+428 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+429 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+430 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+431 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+432 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+433 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+434 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+435 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+436 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+437 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+438 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+439 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+440 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+441 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+442 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+443 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+444 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+445 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+446 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+447 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+448 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+449 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+450 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+451 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+452 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+453 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+454 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+455 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+456 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+457 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+458 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+459 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+460 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+461 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+462 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+463 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+464 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+465 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+466 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+467 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+468 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+469 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+470 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+471 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+472 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+473 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+474 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+475 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+476 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+477 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+478 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+479 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+480 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+481 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+482 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+483 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+484 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+485 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+486 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+487 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+488 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+489 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+490 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+491 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+492 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+493 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+494 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+495 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+496 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+497 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+498 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+499 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+500 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+501 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+502 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+503 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+504 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+505 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+506 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+507 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+508 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+509 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+510 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+511 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+512 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+513 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+514 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+515 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+516 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+517 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+518 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+519 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+520 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+521 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+522 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+523 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+524 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+525 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+526 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+527 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+528 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+529 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+530 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+531 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+532 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+533 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+534 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+535 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+536 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+537 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+538 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+539 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+540 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+541 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+542 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+543 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+544 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+545 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+546 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+547 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+548 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+549 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+550 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+551 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+552 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+553 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+554 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming\npm-cache
+555 silly vacuum-fs removing C:\Users\Oswaldo\AppData\Roaming\npm-cache
+556 silly vacuum-fs removing C:\Users\Oswaldo\AppData\Roaming\npm-cache
+557 silly vacuum-fs removing C:\Users\Oswaldo\AppData\Roaming\npm-cache
+558 silly vacuum-fs removing C:\Users\Oswaldo\AppData\Roaming\npm-cache
+559 silly vacuum-fs removing C:\Users\Oswaldo\AppData\Roaming\npm-cache
+560 silly vacuum-fs removing C:\Users\Oswaldo\AppData\Roaming\npm-cache
+561 silly vacuum-fs unable to remove C:\Users\Oswaldo\AppData\Roaming\npm-cache due to EPERM: operation not permitted, rmdir 'C:\Users\Oswaldo\AppData\Roaming\npm-cache'
+562 silly vacuum-fs unable to remove C:\Users\Oswaldo\AppData\Roaming\npm-cache due to EPERM: operation not permitted, rmdir 'C:\Users\Oswaldo\AppData\Roaming\npm-cache'
+563 silly vacuum-fs unable to remove C:\Users\Oswaldo\AppData\Roaming\npm-cache due to EPERM: operation not permitted, rmdir 'C:\Users\Oswaldo\AppData\Roaming\npm-cache'
+564 silly vacuum-fs quitting because lost the race to remove C:\Users\Oswaldo\AppData\Roaming\npm-cache
+565 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming
+566 silly vacuum-fs quitting because other entries in C:\Users\Oswaldo\AppData\Roaming
+567 verbose stack Error: EPERM: operation not permitted, rmdir 'C:\Users\Oswaldo\AppData\Roaming\npm-cache'
+567 verbose stack     at Error (native)
+568 verbose cwd C:\MAP
+569 error Windows_NT 6.1.7601
+570 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "cache" "clean"
+571 error node v6.9.2
+572 error npm  v3.10.9
+573 error path C:\Users\Oswaldo\AppData\Roaming\npm-cache
+574 error code EPERM
+575 error errno -4048
+576 error syscall rmdir
+577 error Error: EPERM: operation not permitted, rmdir 'C:\Users\Oswaldo\AppData\Roaming\npm-cache'
+577 error     at Error (native)
+577 error  { Error: EPERM: operation not permitted, rmdir 'C:\Users\Oswaldo\AppData\Roaming\npm-cache'
+577 error     at Error (native)
+577 error   errno: -4048,
+577 error   code: 'EPERM',
+577 error   syscall: 'rmdir',
+577 error   path: 'C:\\Users\\Oswaldo\\AppData\\Roaming\\npm-cache' }
+578 error Please try running this command again as root/Administrator.
+579 verbose exit [ -4048, true ]

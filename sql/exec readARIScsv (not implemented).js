@@ -1,11 +1,9 @@
-//function readARIS(){
+function readARIS(){
 
     var mysql = require('mysql');
-    //var fs = require('fs');
     var exporter = require('csv-to-mysql');
-    //var cm = require('csv-mysql');
-    //var expect = require('expect');
-
+    //var exporter = require('../node_modules/csv-to-mysql_custom/index');
+    /*
     var connection = mysql.createConnection({
         host: 'localhost',
         user: 'root',
@@ -19,8 +17,9 @@
         console.log(rows);
     });
     connection.end();
-
+    */
+    //input_ARIS
     exporter('localhost', 'mapdb', 'root', '123456', '../csv/ARIS_output.csv');
-//}
+}
 
-//module.exports.clean = readARIS;
+module.exports.read = readARIS;
