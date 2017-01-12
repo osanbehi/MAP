@@ -1,8 +1,9 @@
 var express = require('express');
 var exec1 = require('../sql/exec sp_generateARIScsv');
 var exec2 = require('../sql/exec sp_generateLeanIXcsv');
-var read1 = require('../sql/exec readARIScsv');
-var read2 = require('../sql/exec readLeanIXcsv');
+//var read1 = require('../sql/exec readARIScsv');
+//var read2 = require('../sql/exec readLeanIXcsv');
+var process2 = require('../sql/exec sp_processARISData');
 //var del1 = require('../sql/deleteARIScsvFile');
 var router = express.Router();
 
@@ -40,11 +41,12 @@ router.post('/', function(req, res) {
     }
 
     if (button3 == "Load"){
-        read1.read();
+        //read1.read();
     }
 
     if (button4 == "Load"){
-        read2.read();
+        //read2.read();
+        process2.process();
     }
 });
 
