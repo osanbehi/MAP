@@ -7,7 +7,7 @@ BEGIN
 DELETE FROM mapdb.output_ARIS;
 
 INSERT INTO mapdb.output_ARIS (d_guid, m_guid, m_name, m_description, m_group_path)
-SELECT  D.d_guid, M.m_guid, M.name, M.description, M.group_path
+SELECT DISTINCT D.d_guid, M.m_guid, M.name, M.description, M.group_path
 FROM arisdb.Object_Definition D
 JOIN arisdb.Object_Occurrence O ON D.d_guid = O.d_guid
 JOIN arisdb.Model M ON O.m_guid = M.m_guid
@@ -20,7 +20,7 @@ WHERE m_description IS NULL OR m_description = "";
 DELETE FROM mapdb.input_ARIS;
 
 INSERT INTO mapdb.input_ARIS (d_guid, m_guid, m_name, m_description, m_group_path)
-SELECT  D.d_guid, M.m_guid, M.name, M.description, M.group_path
+SELECT DISTINCT D.d_guid, M.m_guid, M.name, M.description, M.group_path
 FROM arisdb.Object_Definition D
 JOIN arisdb.Object_Occurrence O ON D.d_guid = O.d_guid
 JOIN arisdb.Model M ON O.m_guid = M.m_guid

@@ -3,19 +3,13 @@ var exec1 = require('../sql/exec sp_generateARIScsv');
 var exec2 = require('../sql/exec sp_generateLeanIXcsv');
 //var read1 = require('../sql/exec readARIScsv');
 //var read2 = require('../sql/exec readLeanIXcsv');
+var process1 = require('../sql/exec sp_processLeanIXData');
 var process2 = require('../sql/exec sp_processARISData');
-//var del1 = require('../sql/deleteARIScsvFile');
+var delete1 = require('../sql/deleteARIScsvFile');
+var delete2 = require('../sql/deleteLeanIXcsvFile');
 var router = express.Router();
 
 //var app = express();
-
-var execLoadARIS = function() {
-    console.log('I come from the frontend ARIS Load')
-};
-
-var execLoadLeanIX = function() {
-    console.log('I come from the frontend LeanIX Load')
-};
 
 /* GET home page. */
 router.get('/', function(req, res) {
@@ -27,6 +21,8 @@ router.post('/', function(req, res) {
     var button2 = req.body.genLeanIXcsv;
     var button3 = req.body.loadARIScsv;
     var button4 = req.body.loadLeanIXcsv;
+    var button5 = req.body.delARIScsv;
+    var button6 = req.body.delLeanIXcsv;
 
     console.log(req.body);
     res.sendStatus(204);
@@ -41,12 +37,19 @@ router.post('/', function(req, res) {
     }
 
     if (button3 == "Load"){
-        //read1.read();
+        process1.process();
     }
 
     if (button4 == "Load"){
-        //read2.read();
         process2.process();
+    }
+
+    if (button5 == "Delete"){
+        delete1.delete();
+    }
+
+    if (button6 == "Delete"){
+        delete2.delete();
     }
 });
 
