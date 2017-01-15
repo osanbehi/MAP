@@ -36,11 +36,11 @@ router.post('/', function(req, res) {
         exec2.generate();
     }
 
-    if (button3 == "Load"){
+    if (button3 == "Load & Process"){
         process1.process();
     }
 
-    if (button4 == "Load"){
+    if (button4 == "Load & Process"){
         process2.process();
     }
 

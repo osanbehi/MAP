@@ -1,0 +1,52 @@
+d_guid,m_guid,m_name,m_description,m_group_path
+SYS001,MOD020,Process adicom Claim,_,/Main group/Accounts Payable/Process regular invoice/Process adicom Claim (moving required)
+SYS001,MOD010,FSS Porto System Library,_,/Main group/ General Library/Systems
+SYS002,MOD001,Access and Identity Management (AIM),End to end One AIM process.,/Main group/Access and Identity Management (AIM)
+SYS002,MOD002,Accounts Receivable,This process describes steps performed by...,/Main group/Accounts Receivable
+SYS002,MOD005,Create manual invoices,This process describes...,/Main group/Accounts Receivable/Create manual invoices/Create manual invoices
+SYS002,MOD009,Freight & Customs,End to end process for freight invoices treatment,/Main group/Freight & Customs
+SYS002,MOD010,FSS Porto System Library,_,/Main group/ General Library/Systems
+SYS002,MOD011,Maintain asset master data,Process for asset...,/Main group/Accounts Payable/Maintain master data/Maintain asset master data
+SYS002,MOD012,Maintain customer master data,This process...,/Main group/Accounts Receivable/Maintain Customer master data
+SYS002,MOD013,Maintain vendor master data,This process describes...,/Main group/Accounts Payable/Maintain master data/Maintain vendor master data
+SYS002,MOD015,Perform AP closing,Closing activities for period...,/Main group/Accounts Payable/Perform AP closing
+SYS002,MOD016,Perform Asset Disposal,The Asset Disposal process...,/Main group/Accounts Payable/Perform Asset Disposal
+SYS002,MOD017,Perform Goods-in-Transit Analysis,The Goods-in-Transit...,/Main group/Retail Accounting/Perform Goods-in-Transit Analysis
+SYS002,MOD018,Perform Retail Inventory Accounting,This process describes...,/Main group/Retail Accounting/Perform Retail Inventory Accounting
+SYS002,MOD019,Perform store-cash tasks,Resume of the tasks performed...,/Main group/Retail Accounting/Perform Store-Cash Tasks
+SYS002,MOD021,Process bank transfers,This process describes...,/Main group/Accounts Receivable/Process incoming payments/Process bank transfers
+SYS002,MOD022,Process barter invoice,Barter invoice specific...,/Main group/Accounts Payable/Process special invoice/Process barter invoice
+SYS002,MOD023,Process bill of exchange,This process describes...,/Main group/Accounts Receivable/Process incoming payments/Process bill of exchange
+SYS002,MOD025,Process cheques received,This process describes...,/Main group/Accounts Receivable/Process incoming payments/Process cheques received
+SYS002,MOD026,Process credit cards payments,This process describes...,/Main group/Accounts Receivable/Process incoming payments/Process credit cards payments
+SYS002,MOD027,Process direct debits rejected,For some customers...,/Main group/Accounts Receivable/Process incoming payments/Process direct debits rejected
+SYS002,MOD028,Process EDI invoice,Process EDI invoices received...,/Main group/Accounts Payable/Process special invoice/Process EDI invoice
+SYS002,MOD029,Process invoice cancellation (moving required),_,/Main group/Accounts Receivable/Create manual invoices/Process invoice cancellation (moving required)
+SYS002,MOD031,Process payment,_,/Main group/Accounts Payable/Process payment
+SYS002,MOD037,ShopRealsMart (SRM),End to end ShopRealsMart...,/Main group/ShopRealsMart (SRM)
+SYS003,MOD010,FSS Porto System Library,_,/Main group/ General Library/Systems
+SYS003,MOD030,Process Non PO trade invoice,_,/Main group/Accounts Payable/Process regular invoice/Process Non PO trade invoice (moving required)
+SYS004,MOD010,FSS Porto System Library,_,/Main group/ General Library/Systems
+SYS004,MOD033,Receipt Auditing process in Concur,This process describes...,/Main group/Travel expenses/Receipt Auditing process in Concur
+SYS004,MOD036,Review travel expenses in Concur,This process...,/Main group/Travel expenses/Review travel expenses in Concur
+SYS004,MOD038,Travel expenses,This process describes the ley tasks performed by Expense... ,/Main group/Travel expenses
+SYS005,MOD010,FSS Porto System Library,_,/Main group/ General Library/Systems
+SYS005,MOD029,Process invoice cancellation (moving required),_,/Main group/Accounts Receivable/Create manual invoices/Process invoice cancellation (moving required)
+SYS006,MOD010,FSS Porto System Library,_,/Main group/ General Library/Systems
+SYS006,MOD004,Create & Release GWC,During the ecommerce process there...,/Main group/eCommerce Accounting/Create & Release GWC
+SYS006,MOD007,eCommerce Accounting,This flowchart describes the...,/Main group/eCommerce Accounting
+SYS007,MOD010,FSS Porto System Library,_,/Main group/ General Library/Systems
+SYS007,MOD008,Execute Month-End Closing Tasks,This flow-chart...,/Main group/Retail Accounting/Execute Month-End Closing Tasks
+SYS007,MOD017,Perform Goods-in-Transit Analysis,The Goods-in-Transit...,/Main group/Retail Accounting/Perform Goods-in-Transit Analysis
+SYS007,MOD018,Perform Retail Inventory Accounting,This process describes...,/Main group/Retail Accounting/Perform Retail Inventory Accounting
+SYS007,MOD019,Perform store-cash tasks,Resume of the tasks performed...,/Main group/Retail Accounting/Perform Store-Cash Tasks
+SYS008,MOD010,FSS Porto System Library,_,/Main group/ General Library/Systems
+SYS008,MOD003,Conduct sourcing,The process "Conduct Sourcing" describes...,/Main group/Non Trade Procurement/Conduct sourcing
+SYS008,MOD006,Create/adjust purchase requisition,The process...,/Main group/Non Trade Procurement/Create/adjust purchase requisition
+SYS008,MOD011,Maintain asset master data,Process for asset...,/Main group/Accounts Payable/Maintain master data/Maintain asset master data
+SYS008,MOD014,Non Trade Procurement,The requisition process...,/Main group/Non Trade Procurement
+SYS008,MOD024,Process catalogue purchase order,The Catalogue...,/Main group/Non Trade Procurement/Process catalogue purchase order
+SYS008,MOD032,Process purchase order amendment ,The Purchase Order...,/Main group/Non Trade Procurement/Process purchase order amendment 
+SYS008,MOD034,Receive Goods and Services,The Receive Goods and...,/Main group/Non Trade Procurement/Receive Goods  and Services
+SYS008,MOD035,Review and approve purchase requisition,The process...,/Main group/Non Trade Procurement/Review and approve purchase requisition
+SYS008,MOD037,ShopRealsMart (SRM),End to end ShopRealsMart...,/Main group/ShopRealsMart (SRM)
