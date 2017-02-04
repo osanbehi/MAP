@@ -23,7 +23,7 @@ BEGIN
           LEAVE read_loop1;
         END IF;
         IF NOT EXISTS (SELECT p_id FROM leanixdb.Process WHERE p_id = c1_m_id) THEN
-          INSERT INTO leanixdb.Process (p_id, name, description, group_path) VALUES (c1_m_id, c1_name, c1_m_description, c1_m_group_path);
+          INSERT INTO leanixdb.Process (p_id, name, description, group_path, to_delete) VALUES (c1_m_id, c1_name, c1_m_description, c1_m_group_path, FALSE);
         ELSE
           UPDATE leanixdb.Process SET name = c1_name, description = c1_m_description, group_path = c1_m_group_path WHERE p_id = c1_m_id;
         END IF;
@@ -39,14 +39,14 @@ BEGIN
           LEAVE read_loop2;
         END IF;
         IF NOT EXISTS (SELECT m_guid FROM mapdb.input_ARIS WHERE m_guid = c2_id) THEN
-            IF NOT EXISTS (SELECT p_id FROM leanixdb.Process WHERE name LIKE '%(deprecated)%' AND p_id = c2_id) THEN
-                UPDATE leanixdb.Process SET name = CONCAT(name, ' (deprecated)') WHERE p_id = c2_id;
+            IF NOT EXISTS (SELECT p_id FROM leanixdb.Process WHERE to_delete = TRUE AND p_id = c2_id) THEN
+                UPDATE leanixdb.Process SET name = CONCAT(name, ' (deprecated)'), to_delete = TRUE WHERE p_id = c2_id;
             END IF;
         END IF;
       END LOOP;
   CLOSE cursor2;
 
   DELETE FROM leanixdb.InformationSystem_Process;
-  INSERT INTO leanixdb.InformationSystem_Process (is_id, p_id) SELECT d_guid, m_guid FROM mapdb.input_ARIS;
+  INSERT INTO leanixdb.InformationSystem_Process (is_id, p_id) SELECT IA.d_guid, IA.m_guid FROM mapdb.input_ARIS IA JOIN leanixdb.Information_System LIS ON IA.d_guid = LIS.is_id;
 
 END$$

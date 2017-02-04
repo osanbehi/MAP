@@ -22,6 +22,7 @@ CREATE TABLE leanixdb.Process (
     name VARCHAR(100) NOT NULL,
     description VARCHAR(1500),
     group_path VARCHAR(250) NOT NULL,
+    to_delete BIT,
     PRIMARY KEY (p_id)
 ) ENGINE = InnoDB;
 

@@ -21,7 +21,7 @@ BEGIN
           LEAVE read_loop1;
         END IF;
         IF NOT EXISTS (SELECT d_guid FROM arisdb.Object_Definition WHERE d_guid = c1_id) THEN
-          INSERT INTO arisdb.Object_Definition (d_guid, type, name, leanix_ready) VALUES (c1_id, "SYS", c1_name, FALSE);
+          INSERT INTO arisdb.Object_Definition (d_guid, type, name, to_delete, leanix_ready) VALUES (c1_id, "SYS", c1_name, FALSE, FALSE);
         ELSE
           UPDATE arisdb.Object_Definition SET name = c1_name WHERE d_guid = c1_id;
         END IF;
@@ -37,8 +37,8 @@ BEGIN
           LEAVE read_loop2;
         END IF;
         IF NOT EXISTS (SELECT is_id FROM mapdb.input_LeanIX WHERE is_id = c2_id) THEN
-            IF NOT EXISTS (SELECT d_guid FROM arisdb.Object_Definition WHERE name LIKE '%(deprecated)%' AND d_guid = c2_id) THEN
-                UPDATE arisdb.Object_Definition SET name = CONCAT(name, ' (deprecated)') WHERE d_guid = c2_id;
+            IF NOT EXISTS (SELECT d_guid FROM arisdb.Object_Definition WHERE to_delete = TRUE AND d_guid = c2_id) THEN
+                UPDATE arisdb.Object_Definition SET name = CONCAT(name, ' (deprecated)'), to_delete = TRUE WHERE d_guid = c2_id;
             END IF;
         END IF;
       END LOOP;

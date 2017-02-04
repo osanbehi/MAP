@@ -12,6 +12,7 @@ CREATE TABLE arisdb.Object_Definition (
     d_guid VARCHAR(50) NOT NULL,
     type VARCHAR(3) NOT NULL,
     name VARCHAR(100) NOT NULL,
+    to_delete BIT,
     leanix_ready BIT,
     PRIMARY KEY (d_guid)
 ) ENGINE = InnoDB;
