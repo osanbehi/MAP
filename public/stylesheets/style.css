@@ -6,3 +6,21 @@ body {
 a {
   color: #00B7FF;
 }
+
+button[type=submit] {
+  padding:12px 12px;
+  color:white;
+  background:#0C892F;
+  border:1px solid black;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 12px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+button[type=submit]:hover {
+    background-color: white;
+    color: #0C892F;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}

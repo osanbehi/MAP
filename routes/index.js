@@ -21,18 +21,17 @@ router.post('/', function(req, res) {
     var button2 = req.body.genLeanIXcsv;
     var button3 = req.body.loadARIScsv;
     var button4 = req.body.loadLeanIXcsv;
-    var button5 = req.body.delARIScsv;
-    var button6 = req.body.delLeanIXcsv;
 
     console.log(req.body);
     res.sendStatus(204);
 
     if (button1 == "Generate"){
-        //del1.delete();
+        delete1.delete();
         exec1.generate();
     }
 
     if (button2 == "Generate"){
+        delete2.delete();
         exec2.generate();
     }
 
@@ -42,14 +41,6 @@ router.post('/', function(req, res) {
 
     if (button4 == "Load & Process"){
         process2.process();
-    }
-
-    if (button5 == "Delete"){
-        delete1.delete();
-    }
-
-    if (button6 == "Delete"){
-        delete2.delete();
     }
 });
 
