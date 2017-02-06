@@ -1,13 +1,50 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-image: url("../images/adidas-background.jpg");
+    background-color: #cccccc;
+    background-size: 1308px 736px;
+}
+
+#top,
+#bottom {
+    padding: 60px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 50%;
+}
+
+#top {
+    top: 0;
+    background-image: url("../images/adidas-background.jpg");
+    background-color: #cccccc;
+    background-size: 1308px 736px;
+}
+
+#bottom {
+    bottom: 0;
+    background-color: white;
+}
+
+h1 {
+    color:white;
+}
+
+h2 {
+    color:white;
+}
+
+h6 {
+    color:white;
 }
 
 a {
   color: #00B7FF;
 }
 
-button[type=submit] {
+button[type=submit].leanGreen {
   padding:12px 12px;
   color:white;
   background:#0C892F;
@@ -17,6 +54,18 @@ button[type=submit] {
   border-radius: 12px;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
+}
+
+button[type=submit].arisBlue {
+    padding:12px 12px;
+    color:white;
+    background:#0899CC;
+    border:1px solid black;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 12px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
 }
 
 button[type=submit]:hover {
